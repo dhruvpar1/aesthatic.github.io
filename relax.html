@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Sub_tabs.css">
+</head>
+<style>
+ 
+</style>
+
+<body>
+  <h1 style="text-align: center;">Relax</h1>
+  <div class="center">
+    <div class="property-card">
+      <a href="#">
+        <div onmouseover="f1()" class="property-image" id="image">
+          <div class="property-image-title"></div>
+        </div>
+        <video id="video">
+          <source control src="Pexels Videos 2795749.mp4" type="video/webm">
+        </video>
+      </a>
+      <div class="property-description">
+        <h5> Card Title </h5>
+        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+      </div>
+    </div>
+    <div class="property-card">
+      <a href="#">
+        <div onmouseover="f2()" class="property-image" id="ig">
+          <div class="property-image-title"></div>
+        </div>
+        <video id="vd">
+          <source control src="Pexels Videos 2795749.mp4" type="video/webm">
+        </video>
+      </a>
+      <div class="property-description">
+        <h5> Card Title </h5>
+        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+      </div>
+    </div>
+    <div class="property-card">
+      <a href="#">
+        <div onmouseover="f3()" class="property-image" id="ig1">
+          <div class="property-image-title"></div>
+        </div>
+        <video id="vd1">
+          <source control src="Pexels Videos 2795749.mp4" type="video/webm">
+        </video>
+      </a>
+      <div class="property-description">
+        <h5> Card Title </h5>
+        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+      </div>
+    </div>
+    <div class="property-card">
+      <a href="#">
+        <div onmouseover="f7()" class="property-image" id="ig7">
+          <div class="property-image-title"></div>
+        </div>
+        <video id="vd7">
+          <source control src="Pexels Videos 2795749.mp4" type="video/webm">
+        </video>
+      </a>
+      <div class="property-description">
+        <h5> Card Title </h5>
+        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="center">
+    <div class="property-card">
+      <a href="#">
+        <div onmouseover="f4()" class="property-image" id="ig4">
+          <div class="property-image-title"></div>
+        </div>
+        <video id="vd4">
+          <source control src="Pexels Videos 2795749.mp4" type="video/webm">
+        </video>
+      </a>
+      <div class="property-description">
+        <h5> Card Title </h5>
+        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+      </div>
+    </div>
+    <div class="property-card">
+      <a href="#">
+        <div onmouseover="f5()" class="property-image" id="ig5">
+          <div class="property-image-title"></div>
+        </div>
+        <video id="vd5">
+          <source control src="Pexels Videos 2795749.mp4" type="video/webm">
+        </video>
+      </a>
+      <div class="property-description">
+        <h5> Card Title </h5>
+        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+      </div>
+    </div>
+    <div class="property-card">
+      <a href="#">
+        <div onmouseover="f6()" class="property-image" id="ig6">
+          <div class="property-image-title"></div>
+        </div>
+        <video id="vd6">
+          <source control src="Pexels Videos 2795749.mp4" type="video/webm">
+        </video>
+      </a>
+      <div class="property-description">
+        <h5> Card Title </h5>
+        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+      </div>
+    </div>
+    <div class="property-card">
+      <a href="#">
+        <div onmouseover="f8()" class="property-image" id="ig8">
+          <div class="property-image-title"></div>
+        </div>
+        <video id="vd8">
+          <source control src="Pexels Videos 2795749.mp4" type="video/webm">
+        </video>
+      </a>
+      <div class="property-description">
+        <h5> Card Title </h5>
+        <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<script>
+  function f1() {
+    var video = document.getElementById('video')
+    var image = document.getElementById('image')
+
+
+    video.style.display = 'block'
+    image.style.display = 'none'
+    video.play()
+    setTimeout(function () {
+      video.pause()
+      video.currentTime = 0
+      video.style.display = 'none'
+      image.style.display = 'block'
+    }, 5000)
+  }
+  function f2() {
+    var vd = document.getElementById('vd')
+    var ig = document.getElementById('ig')
+
+
+    vd.style.display = 'block'
+    ig.style.display = 'none'
+    vd.play();
+    setTimeout(function () {
+      vd.pause()
+      vd.currentTime = 0
+      vd.style.display = 'none'
+      ig.style.display = 'block'
+    }, 5000)
+  }
+  function f3() {
+    var vd = document.getElementById('vd1')
+    var ig = document.getElementById('ig1')
+
+
+    vd.style.display = 'block'
+    ig.style.display = 'none'
+    vd.play();
+    setTimeout(function () {
+      vd.pause()
+      vd.currentTime = 0
+      vd.style.display = 'none'
+      ig.style.display = 'block'
+    }, 5000)
+  }
+  function f4() {
+    var vd = document.getElementById('vd4')
+    var ig = document.getElementById('ig4')
+
+
+    vd.style.display = 'block'
+    ig.style.display = 'none'
+    vd.play();
+    setTimeout(function () {
+      vd.pause()
+      vd.currentTime = 0
+      vd.style.display = 'none'
+      ig.style.display = 'block'
+    }, 5000)
+  }
+  function f5() {
+    var vd = document.getElementById('vd5')
+    var ig = document.getElementById('ig5')
+
+
+    vd.style.display = 'block'
+    ig.style.display = 'none'
+    vd.play();
+    setTimeout(function () {
+      vd.pause()
+      vd.currentTime = 0
+      vd.style.display = 'none'
+      ig.style.display = 'block'
+    }, 5000)
+  }
+  function f6() {
+    var vd = document.getElementById('vd6')
+    var ig = document.getElementById('ig6')
+
+
+    vd.style.display = 'block'
+    ig.style.display = 'none'
+    vd.play();
+    setTimeout(function () {
+      vd.pause()
+      vd.currentTime = 0
+      vd.style.display = 'none'
+      ig.style.display = 'block'
+    }, 5000)
+  }
+  function f7() {
+    var vd = document.getElementById('vd7')
+    var ig = document.getElementById('ig7')
+
+
+    vd.style.display = 'block'
+    ig.style.display = 'none'
+    vd.play();
+    setTimeout(function () {
+      vd.pause()
+      vd.currentTime = 0
+      vd.style.display = 'none'
+      ig.style.display = 'block'
+    }, 5000)
+  }
+  function f8() {
+    var vd = document.getElementById('vd8')
+    var ig = document.getElementById('ig8')
+
+
+    vd.style.display = 'block'
+    ig.style.display = 'none'
+    vd.play();
+    setTimeout(function () {
+      vd.pause()
+      vd.currentTime = 0
+      vd.style.display = 'none'
+      ig.style.display = 'block'
+    }, 5000)
+  }
+
+</script>
+
+</html>
