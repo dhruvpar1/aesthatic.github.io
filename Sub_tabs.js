@@ -11,7 +11,7 @@ function f1() {
       video.currentTime = 0
       video.style.display = 'none'
       image.style.display = 'block'
-    }, 5000)
+    }, 100000)
   }
   function f2() {
     var vd = document.getElementById('vd')
